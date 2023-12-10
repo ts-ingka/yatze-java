@@ -73,7 +73,7 @@ public class Main {
                     System.out.println("6. Sixes");
                 }
 
-                int option = Integer.parseInt(System.console().readLine());
+                int option = Integer.parseInt(scanner.nextLine());
                 this.scoreBoard.setScore(option, this.sumDices(option));
                 this.scoreBoard.printScoreBoard();
 
